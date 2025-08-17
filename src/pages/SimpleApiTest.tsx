@@ -107,6 +107,9 @@ export default function SimpleApiTest() {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             基于Unsplash API的高质量图片搜索服务，免费商用
           </p>
+          <p className="text-sm text-gray-500">
+            最后更新: {new Date().toLocaleString('zh-CN')}
+          </p>
           <div className="flex justify-center gap-4 mt-6">
             <a 
               href="/vidu" 
