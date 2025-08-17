@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# 🖼️ 智能图片搜索网站
 
-## Project info
+一个基于React + TypeScript + Vite构建的智能图片搜索网站，使用Unsplash API提供高质量的图片搜索服务。
 
-**URL**: https://lovable.dev/projects/d25bb8f4-9219-4928-b7c0-400f6d3eaa0a
+## ✨ 主要功能
 
-## How can I edit this code?
+- **🔍 智能图片搜索**：输入关键词即可搜索高质量图片
+- **🌍 响应式设计**：完美适配各种设备（手机、平板、电脑）
+- **🎨 现代化UI**：使用Shadcn UI + Tailwind CSS构建
+- **📱 用户友好**：无需注册，直接搜索使用
+- **🆓 免费商用**：所有图片来自Unsplash，可免费商用
 
-There are several ways of editing your application.
+## 🚀 在线体验
 
-**Use Lovable**
+- **主站**：图片搜索功能
+- **图生图**：[/vidu](/vidu) - Vidu API图片生成功能
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d25bb8f4-9219-4928-b7c0-400f6d3eaa0a) and start prompting.
+## 🛠️ 技术栈
 
-Changes made via Lovable will be committed automatically to this repo.
+- **前端框架**：React 18 + TypeScript
+- **构建工具**：Vite 5
+- **UI组件**：Shadcn UI + Radix UI
+- **样式系统**：Tailwind CSS
+- **状态管理**：React Hooks
+- **API集成**：Unsplash API
 
-**Use your preferred IDE**
+## 📱 使用方法
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. 在搜索框中输入关键词（支持中英文）
+2. 点击搜索按钮或按回车键
+3. 浏览搜索结果
+4. 点击图片查看大图或下载
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🌟 特色亮点
 
-Follow these steps:
+- **高质量图片**：来自Unsplash的专业摄影师作品
+- **智能搜索**：支持各种关键词和主题
+- **快速响应**：优化的搜索体验
+- **美观界面**：现代化的设计风格
+- **完全免费**：无需付费即可使用
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🔧 本地开发
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 克隆仓库
+git clone https://github.com/ArvinZhaoYijun/PicSearch.git
+cd PicSearch
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 安装依赖
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 启动开发服务器
 npm run dev
+
+# 构建生产版本
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 🌐 部署
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Vercel部署（推荐）
+1. Fork或克隆此仓库
+2. 在Vercel中导入GitHub仓库
+3. 设置环境变量：`VITE_UNSPLASH_API_KEY`
+4. 一键部署
 
-**Use GitHub Codespaces**
+### 其他平台
+- Netlify
+- GitHub Pages
+- 任何静态文件托管服务
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 许可证
 
-## What technologies are used for this project?
+MIT License - 详见 [LICENSE](LICENSE) 文件
 
-This project is built with:
+## 🤝 贡献
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+欢迎提交Issue和Pull Request！
 
-## How can I deploy this project?
+## 📞 联系方式
 
-Simply open [Lovable](https://lovable.dev/projects/d25bb8f4-9219-4928-b7c0-400f6d3eaa0a) and click on Share -> Publish.
+- GitHub: [@ArvinZhaoYijun](https://github.com/ArvinZhaoYijun)
+- 项目地址: [https://github.com/ArvinZhaoYijun/PicSearch](https://github.com/ArvinZhaoYijun/PicSearch)
 
-## Can I connect a custom domain to my Lovable project?
+## 🙏 致谢
 
-Yes, you can!
+- [Unsplash](https://unsplash.com) - 提供高质量图片和API
+- [Vite](https://vitejs.dev) - 快速的构建工具
+- [React](https://reactjs.org) - 用户界面库
+- [Tailwind CSS](https://tailwindcss.com) - CSS框架
+- [Shadcn UI](https://ui.shadcn.com) - 精美UI组件
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**享受搜索图片的乐趣！** 🎉

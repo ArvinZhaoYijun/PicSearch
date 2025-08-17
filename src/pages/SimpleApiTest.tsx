@@ -105,8 +105,16 @@ export default function SimpleApiTest() {
             🖼️ 智能图片搜索
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            输入任何关键词，AI帮你找到最匹配的高质量图片
+            基于Unsplash API的高质量图片搜索服务，免费商用
           </p>
+          <div className="flex justify-center gap-4 mt-6">
+            <a 
+              href="/vidu" 
+              className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors text-sm"
+            >
+              🎨 图生图功能
+            </a>
+          </div>
         </div>
 
         {/* 搜索区域 */}
@@ -248,7 +256,14 @@ export default function SimpleApiTest() {
 
         {/* 页脚 */}
         <div className="text-center text-gray-500 text-sm py-8">
-          <p>Powered by Unsplash API • 高质量图片搜索服务</p>
+          <div className="space-y-2">
+            <p>Powered by Unsplash API • 高质量图片搜索服务</p>
+            <div className="flex justify-center gap-4 text-xs">
+              <a href="/vidu" className="text-blue-600 hover:underline">图生图功能</a>
+              <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Unsplash官网</a>
+              <a href="https://github.com/ArvinZhaoYijun/PicSearch" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub源码</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
